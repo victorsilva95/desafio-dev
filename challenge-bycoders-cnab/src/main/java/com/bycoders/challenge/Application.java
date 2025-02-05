@@ -1,4 +1,4 @@
-package com.example.challenge.bycoders.challenge.bycoders.cnab;
+package com.bycoders.challenge;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

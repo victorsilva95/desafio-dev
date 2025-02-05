@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  challenge-bycoders-cnab-postgres:
+    container_name: challenge_bycoders_cnab_postgres
+    image: remote-docker-registry.artifactory.tools.gondor.prod.infra/postgres:12-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - './docker/postgres:/var/lib/postgresql/data'
+    ports:
+      - 5432:5432

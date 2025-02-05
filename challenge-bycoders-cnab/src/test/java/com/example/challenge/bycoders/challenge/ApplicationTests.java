@@ -1,4 +1,4 @@
-package com.example.challenge.bycoders.challenge.bycoders.cnab;
+package com.example.challenge.bycoders.challenge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
